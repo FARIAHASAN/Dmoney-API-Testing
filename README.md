@@ -1,5 +1,20 @@
 # Project Title: Manual testing of the rest API of Dmoney,a sample finance website, with Postman and Newman
-## Project Summary: For this project, I have developed a flow that allows the admin to log in, add new users, and carry out various CRUD operations for the users. Money has been deposited into each agent's account by a unique kind of agent known as SYSTEM.Agents have the ability to deposit and withdraw money from customers as well as pay merchants.Customers are able to send and receive money as well as pay merchants for various services.Users of any kind can view their own statement and balance.
+## Project Summary: Developed and executed an extensive API testing framework for the Dmoney REST API, leveraging Postman for test case design and execution and Newman for automated reporting. The framework covered key functionalities such as user and agent management, transactions, balance inquiries, and payment processing.
+
+## Key Features:
+## Scenario-Based Testing:
+Created test cases, including scenarios for user creation, money deposits, transfers, withdrawals, and payments.
+Included validations for balances, transaction statements, and merchant payments.
+
+## Dynamic Data Handling:
+Utilized environment variables for seamless data management across multiple requests.
+
+## Automation and Reporting:
+Integrated Newman to automate test execution and generate detailed HTML and JSON reports.
+
+## Error Handling and Assertions:
+Implemented comprehensive assertions to validate API responses, ensuring the integrity and accuracy of data.
+
 ## Prerequisites:
 - NodeJS (Latest LTS)
 - Newman
